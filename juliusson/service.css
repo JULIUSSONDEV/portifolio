@@ -1,0 +1,47 @@
+#services {
+    background-color: #f4f4f4; /* Light background for the section */
+    padding: 40px 20px; /* Padding around the section */
+}
+
+.headings {
+    text-align: center; /* Center the main heading */
+    font-size: 2.5em; /* Larger font size for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.container {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow items to wrap to next line */
+    justify-content: space-around; /* Center the items */
+
+}
+
+.service-item {
+    background-color: #fff; /* White background for service items */
+    border: 1px solid #ccc; /* Light border around each service */
+    border-radius: 8px; /* Rounded corners */
+    margin: 10px; /* Space between service items */
+    padding: 20px; /* Padding inside the service items */
+    width: 350px; /* Fixed width for service items */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    transition: transform 0.2s; /* Smooth transform on hover */
+}
+
+.service-item:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    background-color: aqua;
+}
+
+.service-item h3 {
+    color:blue; /* Darker color for the headings */
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+.service-item p {
+    color:black; /* Lighter color for the paragraph text */
+}
+h3{
+    text-decoration: underline;
+    text-align: center;
+}
+
